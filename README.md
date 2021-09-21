@@ -3,11 +3,6 @@
 Hey everyone! 👋
 This project contains the carefully compiled easy to medium level Data Structures &amp; Algorithm questions. 
 
-
-
-# Code-Crossroad
-
-
 **Engineering-Daze is the second open source project of Google Developer Student Clubs - Banasthali Vidyapith.** It's the ultimate Coder's Conclave of all time! Contribute to the project, and submit the solutions and have a chance to be featured as Contributor in this project. 
 
 
