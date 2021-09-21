@@ -13,11 +13,11 @@ This project contains the carefully compiled easy to medium level Data Structure
 
 <div align="center">
 
-[![Issues](https://img.shields.io/github/issues/DSC-Banasthali-Vidyapith/Code-Crossroad)](https://github.com/DSC-Banasthali-Vidyapith/Code-Crossroad/issues)
+[![Issues](https://img.shields.io/github/issues/DSC-Banasthali-Vidyapith/Engineering-Daze)](https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Forks](https://img.shields.io/github/forks/DSC-Banasthali-Vidyapith/Code-Crossroad?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Code-Crossroad) 
-[![Stars](https://img.shields.io/github/stars/DSC-Banasthali-Vidyapith/Code-Crossroad?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Code-Crossroad) 
-[![Watchers](https://img.shields.io/github/watchers/DSC-Banasthali-Vidyapith/Code-Crossroad?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Code-Crossroad)
+[![Forks](https://img.shields.io/github/forks/DSC-Banasthali-Vidyapith/Engineering-Daze?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze) 
+[![Stars](https://img.shields.io/github/stars/DSC-Banasthali-Vidyapith/Engineering-Daze?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze) 
+[![Watchers](https://img.shields.io/github/watchers/DSC-Banasthali-Vidyapith/Engineering-Daze?style=social)](https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze)
 </div>
   
 
