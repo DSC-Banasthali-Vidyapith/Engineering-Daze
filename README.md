@@ -40,7 +40,7 @@ This project contains the carefully compiled easy to medium level Data Structure
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
 
 
-## Social Handles
+## Stay tuned with our Social Handles
 
 <a href="https://www.linkedin.com/company/dsc-banasthali-vidyapith/">
     <img align="left" alt="DSC-Banasthali Vidyapith | Linkedin" width="24px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" />
