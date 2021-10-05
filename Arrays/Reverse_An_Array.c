@@ -1,6 +1,5 @@
 //Program to Reverse an Array in C
-
-
+//Given an array of size N . Reverse the array 
 /*
  Algorithm:
  
