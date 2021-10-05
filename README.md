@@ -37,13 +37,13 @@ This project contains the carefully compiled easy to medium level Data Structure
 # Code Structure
 * [Array](/Arrays)
 * [String](/String)
-* [Linked List](/Linked List)
+* [Linked List](/Linked_List)
 * [Stack](/Stacks)
 * [Queue](/Queues)
 * [Hashing](/Hashing)
 * [Mathematics](/Mathematics)
 * [Matrix](/Matrix)
-* 
+
 # License
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
