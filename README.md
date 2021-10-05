@@ -34,7 +34,16 @@ This project contains the carefully compiled easy to medium level Data Structure
 <a href="https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/DSC-Banasthali-Vidyapith/Engineering-Daze?color=0059b3"></a> 
 </div>
 
-
+# Code Structure
+* [Array](/Arrays)
+* [String](/String)
+* [Linked List](/Linked List)
+* [Stack](/Stacks)
+* [Queue](/Queues)
+* [Hashing](/Hashing)
+* [Mathematics](/Mathematics)
+* [Matrix](/Matrix)
+* 
 # License
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
