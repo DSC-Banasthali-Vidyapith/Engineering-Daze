@@ -34,7 +34,7 @@ This project contains the carefully compiled easy to medium level Data Structure
 <a href="https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/DSC-Banasthali-Vidyapith/Engineering-Daze?color=0059b3"></a> 
 </div>
 
-# Code Structure
+## Code Structure
 * [Array](/Arrays)
 * [String](/String)
 * [Linked List](/Linked_List)
@@ -44,12 +44,53 @@ This project contains the carefully compiled easy to medium level Data Structure
 * [Mathematics](/Mathematics)
 * [Matrix](/Matrix)
 
-# License
+The questions are classified according to the topics. Students are free to submit solutions in any of these mentioned languages:
+* Java
+* C
+* C++
+* Python
+
+
+# Contribution Guidelines :gear:
+
+You may go through these guidelines and contribute accordingly:
+
+* Make sure you do not copy codes from external sources like GFG,hackerearth, etc because that work will not be considered. **Plagiarism is strictly not allowed.** 
+* If you want to contribute for an existing algorithm, we prefer that you create an issue before making a PR and link your PR to that issue.
+* If you have modified/added code work, make sure the code compiles before submitting.
+* Strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
+* Just mention the issue against which the pull request is open by writing ```Fixes #(your issue number)``` in the description of the pull request
+* Do not update the [README.md](README.md).
+
+## Guidelines for issue creation :
+* Always **pitch your idea well** and mention the specific **data structure/algorithm** and the **language** in which you will implement.
+* Your issue can be **closed** if the issue you created already exists. Use the search functionality on Github Issues.
+* Once you have decided the problem you want to work upon, shoot an issue and patiently wait for our project maintainer to have a look over it and assign it to you.
+* You can **ONLY** work on the issues that have been **assigned** to you.
+
+## Guidelines for code base :
+* Use **1 tab or 4 spaces** indentation.
+* Add the **description** of your algorithm using multi-line comments at the starting of the code.
+* Add **comments** to your code in a **new line** and use single-line comments with **1 tab or 4 spaces** indentation.
+* Try to make your code **user input**.
+* Add **minimum 2 test cases** along with input and output at the end of your code using multi-line comments.
+* Also, add **time** and **space complexity** at the end of your code using multi-line comments.
+
+## Where to upload the files 📂
+
+* Your files should be uploaded inside the same folder as the question and name your file as **Question_name.cpp** (assuming that the code submitted is written in cpp)
+* **Under no circumstances create new folders within the respective topic folders to upload your code unless specifically told to do so**.
+* Edit the corresponding README.md file to add the link to your code in the corresponding section in **alphabetical order**.[(GitHub Markdown Guide)](https://guides.github.com/features/mastering-markdown/).
+
+
+The value of a strong contribution stays beyond everything and gives you satisfaction.
+
+## License
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
 
 
-## Stay tuned with our Social Handles
+### Stay tuned with our Social Handles
 
 <a href="https://www.linkedin.com/company/dsc-banasthali-vidyapith/">
     <img align="left" alt="DSC-Banasthali Vidyapith | Linkedin" width="24px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" />
@@ -67,5 +108,5 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Vanshikagarg17)
 
-### Built with ❤️ by GDSC Banasthali Vidyapith
+#### Built with ❤️ by GDSC Banasthali Vidyapith
 
