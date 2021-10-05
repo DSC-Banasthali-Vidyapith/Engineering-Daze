@@ -85,6 +85,9 @@ You may go through these guidelines and contribute accordingly:
 
 The value of a strong contribution stays beyond everything and gives you satisfaction.
 
+## Code of Conduct
+You can find our Code of Conduct [here](https://github.com/DSC-Banasthali-Vidyapith/Engineering-Daze/blob/main/CODE_OF_CONDUCT.md).
+
 ## License
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
