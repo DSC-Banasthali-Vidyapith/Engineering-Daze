@@ -1,4 +1,6 @@
 //C Program to reverse a string:
+//Problem Statement: Given a string of size N. Reverse the string and display it.
+
 /* Algorithm- 
 To reverse a string :
 1. Start
@@ -45,14 +47,19 @@ int main(void)
 
 /*
 Test Case 1:
-Input: abc
-Output: cba
+Input: 
+Insert the string to be reversed: abc
+Output:
+cba is the reversed string .
 
 Test Case 2:
-Input: arushi
-Output: ihsrua
+Input: 
+Insert the string to be reversed: arushi
+Output: 
+ihsrua is the reversed string .
 
-Time Complexity: O(n) 
+Time Complexity: O(N) 
 Space Complexity: O(1)
- */
+*/
+
 
