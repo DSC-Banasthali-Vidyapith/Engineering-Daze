@@ -1,7 +1,9 @@
-//Program to Reverse an Array in C
-//Given an array of size N . Reverse the array 
 /*
- Algorithm:
+Program to Reverse an Array in C
+
+Problem statement: Given an array of size N . Reverse the array 
+
+Algorithm:
  
    Input an Array from the user by using for loop.
    
