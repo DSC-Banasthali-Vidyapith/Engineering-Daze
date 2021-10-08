@@ -46,4 +46,18 @@ public class Number_of_Paths
 		System.out.println("T1: Row=-1, Col=7, number of paths = " + numberOfPaths(-1,7));
 
 	}
+
+	/***
+
+	Code complexity: O(MXN)
+
+	Input: 
+		T1: rows=3, columns=7
+		T2: rows=-1, columns=7
+
+	Output:
+		T1: 28
+		T2: 0
+
+	***/
 }
