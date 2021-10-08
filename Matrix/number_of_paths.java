@@ -6,8 +6,32 @@ The problem is to count all the possible paths from top left to bottom right of 
 Author: b49tan
 ***/
 
-public class Number_of_Paths
+public class number_of_paths
 {
+
+	/* Explanation:
+	Based on the contraints in the question, from every cell, we can either move right or down. 
+	Thinking in a bottom up manner, if we are at cell[i][j], we would have come adjacent cell above or adjacent left cell.
+
+	Thus, number ways for cell[i][j] would be - 
+	
+				  above cell      left cell
+	cell[i][j] = cell[i-1][j] + cell[i][j-1];
+
+	To reach starting cell - (0,0) - number of ways = 1.
+	So to reach cell(0,1) would be = cell(-1,0) + cell(0,0)
+										X       + 1
+									= 1
+
+	The recursion shows that we can divide the problem in optimal subproblems and those sub problems are overlapping. 
+	Therefore we can solve this optimally using Dynamic Programming + Memozation.
+
+	The below solution follows bottom up approach - 
+		1. start by defining the base cases
+		2. Iterate over the grid and calculate number of ways @ cell[i][j] using the abvove defined recursion
+		3. Values are stored in dp[i][j] for achieving memoization
+	*/
+
 	static int numberOfPaths(int m, int n)
 	{
 		//If not a valid matrix, 0 paths
@@ -37,13 +61,14 @@ public class Number_of_Paths
 
 	public static void main(String[] args)
 	{
-		System.out.println("Number of paths from top left to bottom right");
 
-		//Test case 1
-		System.out.println("T1: Row=3, Col=7, number of paths = " + numberOfPaths(3,7));
+		Scanner sc=new Scanner(System.in);
+        System.out.println("Enter number of rows in matrix");
+        int m=sc.nextInt();
+        System.out.println("Enter number of columns in matrix");
+        int n=sc.nextInt();
 
-		//Test case 2
-		System.out.println("T1: Row=-1, Col=7, number of paths = " + numberOfPaths(-1,7));
+		System.out.println("Row=" + m + ", Col=" + n + ", number of paths = " + numberOfPaths(m,n));
 
 	}
 
