@@ -39,11 +39,11 @@ public class count_of_common_elements
         if(n>m)       // creating hashSet of smaller size array
         {
             for(int i=0;i<m;i++)
-            hs.add(b[i]);
+                 hs.add(b[i]);
             for(int i=0;i<n;i++)
             {
                 if(hs.contains(a[i]))
-                ans.add(a[i]);
+                    ans.add(a[i]);
             }
         }
         else
@@ -53,7 +53,7 @@ public class count_of_common_elements
             for(int i=0;i<m;i++)
             {
                 if(hs.contains(b[i]))
-                ans.add(b[i]);   // adding common elements in ans list
+                    ans.add(b[i]);   // adding common elements in ans list
             }
         }
         System.out.println(ans.size());
