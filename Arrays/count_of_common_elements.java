@@ -26,19 +26,7 @@ Space Complexity = O(n), for storing the auxiliary hash table
 
 
 */
- // Sample Test cases
-/* 
-    Sample Input-: 5 4
-                   1 2 3 4 5
-                   2 3 6 5
-    Sample Output-: 3       common elements are 2, 3 , 5  
 
-    Sample Input-: 4 7
-                   1 2 3 4 
-                   2 3 6 5 4 7 8
-    Sample Output-: 3      common elements are 2, 3 , 4
-
-*/
 // Solution Code
 
 import java.util.*;
@@ -53,9 +41,9 @@ public class count_of_common_elements
         HashSet<Integer> hs=new HashSet<>();
         int a[]=new int[n],b[]=new int[m];
         for(int i=0;i<n;i++)
-        a[i]=in.nextInt();
+           a[i]=in.nextInt();
         for(int i=0;i<m;i++)
-        b[i]=in.nextInt();
+           b[i]=in.nextInt();
         if(n>m)       // creating hashSet of smaller size array
         {
             for(int i=0;i<m;i++)
@@ -69,7 +57,7 @@ public class count_of_common_elements
         else
         {
             for(int i=0;i<n;i++)
-            hs.add(a[i]);
+                hs.add(a[i]);
             for(int i=0;i<m;i++)
             {
                 if(hs.contains(b[i]))
@@ -80,3 +68,17 @@ public class count_of_common_elements
         in.close();
     }
 }
+
+
+ // Sample Test cases
+/* 
+    Sample Input-: 5 4
+                   1 2 3 4 5
+                   2 3 6 5
+    Sample Output-: 3       common elements are 2, 3 , 5  
+
+    Sample Input-: 4 7
+                   1 2 3 4 
+                   2 3 6 5 4 7 8
+    Sample Output-: 3      common elements are 2, 3 , 4
+*/
