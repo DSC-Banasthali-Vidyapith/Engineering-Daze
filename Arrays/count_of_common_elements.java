@@ -17,14 +17,6 @@ The search operation in a hash table is, in an average case, O(1).
 
 
 
-Complexity Analysis-:
-     Time Complexity = Inserting n elements of A[] in hash table + Time complexity of searching m elements of B[] in the hash table
-
-     = m* O(1) + n * O(1)) = O(m+n)
-
-Space Complexity = O(n), for storing the auxiliary hash table
-
-
 */
 
 // Solution Code
@@ -68,7 +60,13 @@ public class count_of_common_elements
         in.close();
     }
 }
+/*
+Complexity Analysis-:
+     Time Complexity = Inserting n elements of A[] in hash table + Time complexity of searching m elements of B[] in the hash table    =    m* O(1) + n * O(1)) = O(m+n)
 
+     Space Complexity = O(n), for storing the auxiliary hash table
+
+*/
 
  // Sample Test cases
 /* 
