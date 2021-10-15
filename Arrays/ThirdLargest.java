@@ -10,42 +10,30 @@ static void thirdLargest(int arr[],int arr_size)
         return;
     }
  
-    // Find first
-    // largest element
-    int first = arr[0];
-    for (int i = 1;
-             i < arr_size ; i++)
-        if (arr[i] > first)
-            first = arr[i];
- 
-    // Find second
-    // largest element
-    int second = Integer.MIN_VALUE;
-    for (int i = 0;
-             i < arr_size ; i++)
-        if (arr[i] > second &&
-            arr[i] < first)
-            second = arr[i];
- 
-    // Find third
-    // largest element
-    int third = Integer.MIN_VALUE;
-    for (int i = 0;
-             i < arr_size ; i++)
-        if (arr[i] > third &&
-            arr[i] < second)
-            third = arr[i];
- 
-    System.out.printf("The third Largest " +
-                  "element is %d\n", third);
+    // Sort the array in descending order
+    for(int i=0;i<arr_size-1;i++)
+    {
+        for(int j=0;j<arr_size-1-i;j++)
+        {
+            if(arr[j]<arr[j+1])
+            {
+                int t=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=t;
+            }
+        }
+    }
+    System.out.println("The Third Largest Element:"+arr[2]);
 }
  
 // Driver code
 public static void main(String []args)
 {
-    int arr[] = {12, 13, 1,
-                 10, 34, 16};
+    int arr[] = {12, 13, 1,10, 34, 16};
     int n = arr.length;
     thirdLargest(arr, n);
 }
 }
+// arr={12,13,1,10,34,16}
+// Output 13
+// Complexity of the code is O(n^2)
