@@ -52,8 +52,9 @@ int main()
 {
 int n;
 
-cin>>n;
 cout<<"Enter the size of the array : ";
+cin>>n;
+
 vector <int> a(n);
 cout<<"\nEnter the elements into the array :\n";
 
