@@ -11,14 +11,14 @@ Step 4: Update the indices of  hashmap accordingly.
 #include<bits/stdc++.h>
 using namespace std;
 
-void swap(vector<int> &arr,int i, int j)
+void swap(vector<int> &arr, int i, int j)
 {
-int tem = arr[i];
-arr[i] = arr[j];
-arr[j] = tem;
+	int tem = arr[i];
+	arr[i] = arr[j];
+	arr[j] = tem;
 }
 
-int minimumSwaps(vector<int>arr,int n)
+int minimumSwaps(vector<int>arr, int n)
 {
 	int ans = 0;
 	vector<int>tem = arr;
@@ -27,7 +27,7 @@ int minimumSwaps(vector<int>arr,int n)
 	map <int, int> mp;
 
 	sort(tem.begin(), tem.end());//Sorting the temporary array.
-	
+
 	for (int i = 0; i < n; i++)
 		mp[arr[i]] = i;
 
@@ -50,35 +50,34 @@ int minimumSwaps(vector<int>arr,int n)
 
 int main()
 {
-int n;
+	int n;
 
-cout<<"Enter the size of the array : ";
-cin>>n;
+	cout << "Enter the size of the array : ";
+	cin >> n;
 
-vector <int> a(n);
-cout<<"\nEnter the elements into the array :\n";
+	vector <int> a(n);
+	cout << "\nEnter the elements into the array :\n";
+	for (int i = 0; i < n; i++)
+		cin >> a[i];
 
-for(int i=0;i<n;i++)
-	cin>>a[i];
-
-cout << minimumSwaps(a, n);
-return 0;
+	cout << minimumSwaps(a, n);
+	return 0;
 }
 
 /*
 Test Cases:
 
-1. 
+1.
 Input: arr = {1, 2, 10, 4, 3, 8, 5, 6};
 Output: 4
 
 
-2. 
+2.
 Input: arr = {2, 1, 4, 6, 1, 7, 9, 5, 8}
 Output: 7
 
 */
 /*
-Time complexity: O(nlogn) --> (Sorting of the temporary copied array) 
+Time complexity: O(nlogn) --> (Sorting of the temporary copied array)
 Space complexity: O(n) --> (Creating a copy of the original array)
 */
