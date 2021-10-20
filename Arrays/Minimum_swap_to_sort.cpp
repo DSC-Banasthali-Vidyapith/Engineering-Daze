@@ -51,9 +51,10 @@ int minimumSwaps(vector<int>arr,int n)
 int main()
 {
 int n;
-vector <int> a(n);
-cout<<"Enter the size of the array : ";
+
 cin>>n;
+cout<<"Enter the size of the array : ";
+vector <int> a(n);
 cout<<"\nEnter the elements into the array :\n";
 
 for(int i=0;i<n;i++)
