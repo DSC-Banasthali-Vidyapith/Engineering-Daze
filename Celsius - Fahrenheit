@@ -1,0 +1,15 @@
+
+#include <bits/stdc++.h>
+using namespace std; 
+float Cel_To_Fah(float n)
+{
+    return ((n * 9.0 / 5.0) + 32.0);
+}
+int main()
+{
+    float n;
+    cout<<" Enter the temperature in celsius";
+    cin>>n;
+    cout << Cel_To_Fah(n);
+    return 0;
+}
